@@ -1,0 +1,118 @@
+﻿@model IEnumerable<CaseProcessor.DataAccess.Models.Case>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Backlog.BacklogNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Closed.RootCause)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Developer.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KB.Url)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SrNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Level)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Version)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Customer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Subject)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OpenDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Component)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Location)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.InternalStatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Owner)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Backlog.BacklogNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Closed.RootCause)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Developer.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KB.Url)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SrNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Level)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Version)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Customer)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Subject)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OpenDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Component)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Location)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.InternalStatus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Owner)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CaseId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CaseId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CaseId })
+        </td>
+    </tr>
+}
+
+</table>

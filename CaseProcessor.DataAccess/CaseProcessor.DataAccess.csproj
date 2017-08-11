@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D99C3574-C834-4F13-B2A4-6CB1F71E3FCB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CaseProcessor.DataAccess</RootNamespace>
+    <AssemblyName>CaseProcessor.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Supeng.Common">
+      <HintPath>..\..\..\Hengrui\EsuCommon\Build Dlls For Windows\Supeng.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CaseProcessorDataContext.cs" />
+    <Compile Include="Migrations\201701250904300_first-design.cs" />
+    <Compile Include="Migrations\201701250904300_first-design.Designer.cs">
+      <DependentUpon>201701250904300_first-design.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701250950480_change-backlognumber-maxlength.cs" />
+    <Compile Include="Migrations\201701250950480_change-backlognumber-maxlength.Designer.cs">
+      <DependentUpon>201701250950480_change-backlognumber-maxlength.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702090331127_todo.cs" />
+    <Compile Include="Migrations\201702090331127_todo.Designer.cs">
+      <DependentUpon>201702090331127_todo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702090551068_tag-change-foreignKey.cs" />
+    <Compile Include="Migrations\201702090551068_tag-change-foreignKey.Designer.cs">
+      <DependentUpon>201702090551068_tag-change-foreignKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702090554416_rename.cs" />
+    <Compile Include="Migrations\201702090554416_rename.Designer.cs">
+      <DependentUpon>201702090554416_rename.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702090732212_activity.cs" />
+    <Compile Include="Migrations\201702090732212_activity.Designer.cs">
+      <DependentUpon>201702090732212_activity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708090806287_closed.cs" />
+    <Compile Include="Migrations\201708090806287_closed.Designer.cs">
+      <DependentUpon>201708090806287_closed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Activity.cs" />
+    <Compile Include="Models\Case.cs" />
+    <Compile Include="Models\Closed.cs" />
+    <Compile Include="Models\Backlog.cs" />
+    <Compile Include="Models\KB.cs" />
+    <Compile Include="Models\Developer.cs" />
+    <Compile Include="Models\Environment.cs" />
+    <Compile Include="Models\ToDo.cs" />
+    <Compile Include="Models\Tag.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201701250904300_first-design.resx">
+      <DependentUpon>201701250904300_first-design.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701250950480_change-backlognumber-maxlength.resx">
+      <DependentUpon>201701250950480_change-backlognumber-maxlength.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702090331127_todo.resx">
+      <DependentUpon>201702090331127_todo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702090551068_tag-change-foreignKey.resx">
+      <DependentUpon>201702090551068_tag-change-foreignKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702090554416_rename.resx">
+      <DependentUpon>201702090554416_rename.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702090732212_activity.resx">
+      <DependentUpon>201702090732212_activity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708090806287_closed.resx">
+      <DependentUpon>201708090806287_closed.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

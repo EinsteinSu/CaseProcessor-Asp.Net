@@ -1,0 +1,53 @@
+﻿@model CaseProcessor.DataAccess.Models.ToDo
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>ToDo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Case.SrNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Case.SrNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Done)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Done)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Time)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Time)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" />
+            @Html.ActionLink("Back to List", "EditCase", "Home", new { id = Model.CaseId }, new { @class = "btn btn-primary" })
+        </div>
+    }
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

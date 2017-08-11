@@ -1,0 +1,38 @@
+﻿@model IEnumerable<CaseProcessor.DataAccess.Models.ToDo>
+<p>
+    @Html.ActionLink("Create New", "Create", "ToDos", new { caseId = ViewData["CaseId"] }, new { @class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Content)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Done)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Time)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Content)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Done)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Time)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", "ToDos", new { id = item.ToDoId }, new { @class = "btn btn-primary" })
+                @Html.ActionLink("Delete", "Delete", "ToDos", new { id = item.ToDoId }, new { @class = "btn btn-primary" })
+            </td>
+        </tr>
+    }
+
+</table>

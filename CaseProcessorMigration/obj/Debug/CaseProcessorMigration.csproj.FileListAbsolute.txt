@@ -1,0 +1,227 @@
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcessorMigration.exe.config
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcessorMigration.exe
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcessorMigration.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\Caliburn.Micro.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcesser.exe
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcessor.DataAccess.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\EntityFramework.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Office.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Wpf.Common.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\EPPlus.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Common.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\DocX.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Data.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\office.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcesser.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcessor.DataAccess.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\Caliburn.Micro.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\Caliburn.Micro.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\EntityFramework.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Office.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Wpf.Common.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\EPPlus.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Common.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\Microsoft.Office.Interop.Word.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Data.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\office.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\obj\Debug\CaseProcessorMigration.csprojResolveAssemblyReference.cache
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\obj\Debug\CaseProcessorMigration.exe
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessorMigration\obj\Debug\CaseProcessorMigration.pdb
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcessorMigration.exe.config
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcessorMigration.exe
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcessorMigration.pdb
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcesser.exe
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcessor.DataAccess.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\EntityFramework.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Grid.v12.1.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Wpf.Common.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Docking.v12.1.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Office.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\EPPlus.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\Newtonsoft.Json.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Common.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Data.v12.1.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Grid.v12.1.Core.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Core.v12.1.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Printing.v12.1.Core.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Printing.v12.1.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Data.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Layout.v12.1.Core.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\DocX.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Printing.v12.1.Core.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\office.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\stdole.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcesser.pdb
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcesser.exe.config
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcessor.DataAccess.pdb
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcessor.DataAccess.dll.config
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\Caliburn.Micro.pdb
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\Caliburn.Micro.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\EntityFramework.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Grid.v12.1.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Wpf.Common.pdb
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Docking.v12.1.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Office.pdb
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\EPPlus.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\Newtonsoft.Json.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Common.pdb
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Data.v12.1.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Grid.v12.1.Core.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Core.v12.1.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Printing.v12.1.Core.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Printing.v12.1.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Data.pdb
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Layout.v12.1.Core.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\Microsoft.Office.Interop.Word.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Printing.v12.1.Core.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\office.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\ja\DevExpress.Xpf.Grid.v12.1.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\de\DevExpress.Xpf.Docking.v12.1.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\es\DevExpress.Xpf.Docking.v12.1.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\ja\DevExpress.Xpf.Docking.v12.1.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\ru\DevExpress.Xpf.Docking.v12.1.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\de\DevExpress.Data.v12.1.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\es\DevExpress.Data.v12.1.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\ja\DevExpress.Data.v12.1.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\ru\DevExpress.Data.v12.1.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\de\DevExpress.Xpf.Grid.v12.1.Core.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\es\DevExpress.Xpf.Grid.v12.1.Core.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\ja\DevExpress.Xpf.Grid.v12.1.Core.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\ru\DevExpress.Xpf.Grid.v12.1.Core.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\de\DevExpress.Xpf.Core.v12.1.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\es\DevExpress.Xpf.Core.v12.1.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\ja\DevExpress.Xpf.Core.v12.1.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\ru\DevExpress.Xpf.Core.v12.1.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\de\DevExpress.Printing.v12.1.Core.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\es\DevExpress.Printing.v12.1.Core.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\ja\DevExpress.Printing.v12.1.Core.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\ru\DevExpress.Printing.v12.1.Core.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\de\DevExpress.Xpf.Printing.v12.1.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\es\DevExpress.Xpf.Printing.v12.1.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\ja\DevExpress.Xpf.Printing.v12.1.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\bin\Debug\ru\DevExpress.Xpf.Printing.v12.1.resources.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\obj\Debug\CaseProcessorMigration.csprojResolveAssemblyReference.cache
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\obj\Debug\CaseProcessorMigration.exe
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessorMigration\obj\Debug\CaseProcessorMigration.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcessorMigration.exe.config
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcessorMigration.exe
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcessorMigration.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\Caliburn.Micro.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcesser.exe
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcessor.DataAccess.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\EntityFramework.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Grid.v12.1.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Wpf.Common.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Docking.v12.1.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Office.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\EPPlus.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\Newtonsoft.Json.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Common.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Data.v12.1.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Grid.v12.1.Core.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Core.v12.1.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Printing.v12.1.Core.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Printing.v12.1.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Data.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Layout.v12.1.Core.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\DocX.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Printing.v12.1.Core.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\office.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\stdole.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcesser.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcesser.exe.config
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcessor.DataAccess.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\CaseProcessor.DataAccess.dll.config
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\Caliburn.Micro.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\Caliburn.Micro.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\EntityFramework.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Grid.v12.1.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Wpf.Common.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Docking.v12.1.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Office.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\EPPlus.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\Newtonsoft.Json.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Common.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Data.v12.1.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Grid.v12.1.Core.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Core.v12.1.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Printing.v12.1.Core.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Printing.v12.1.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\Supeng.Data.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Layout.v12.1.Core.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\Microsoft.Office.Interop.Word.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\DevExpress.Xpf.Printing.v12.1.Core.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\office.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\ja\DevExpress.Xpf.Grid.v12.1.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\de\DevExpress.Xpf.Docking.v12.1.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\es\DevExpress.Xpf.Docking.v12.1.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\ja\DevExpress.Xpf.Docking.v12.1.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\ru\DevExpress.Xpf.Docking.v12.1.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\de\DevExpress.Data.v12.1.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\es\DevExpress.Data.v12.1.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\ja\DevExpress.Data.v12.1.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\ru\DevExpress.Data.v12.1.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\de\DevExpress.Xpf.Grid.v12.1.Core.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\es\DevExpress.Xpf.Grid.v12.1.Core.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\ja\DevExpress.Xpf.Grid.v12.1.Core.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\ru\DevExpress.Xpf.Grid.v12.1.Core.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\de\DevExpress.Xpf.Core.v12.1.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\es\DevExpress.Xpf.Core.v12.1.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\ja\DevExpress.Xpf.Core.v12.1.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\ru\DevExpress.Xpf.Core.v12.1.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\de\DevExpress.Printing.v12.1.Core.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\es\DevExpress.Printing.v12.1.Core.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\ja\DevExpress.Printing.v12.1.Core.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\ru\DevExpress.Printing.v12.1.Core.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\de\DevExpress.Xpf.Printing.v12.1.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\es\DevExpress.Xpf.Printing.v12.1.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\ja\DevExpress.Xpf.Printing.v12.1.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\bin\Debug\ru\DevExpress.Xpf.Printing.v12.1.resources.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\obj\Debug\CaseProcessorMigration.csprojResolveAssemblyReference.cache
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\obj\Debug\CaseProcessorMigration.exe
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\obj\Debug\CaseProcessorMigration.pdb

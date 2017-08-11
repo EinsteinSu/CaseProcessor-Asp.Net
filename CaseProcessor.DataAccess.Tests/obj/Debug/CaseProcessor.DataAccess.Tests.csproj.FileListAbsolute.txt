@@ -1,0 +1,63 @@
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\CaseProcessor.DataAccess.Tests.dll.config
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\CaseProcessor.DataAccess.Tests.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\CaseProcessor.DataAccess.Tests.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\CaseProcessor.DataAccess.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\EntityFramework.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\CaseProcessor.DataAccess.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\EntityFramework.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessor.DataAccess.Tests\obj\Debug\CaseProcessor.DataAccess.Tests.csprojResolveAssemblyReference.cache
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessor.DataAccess.Tests\obj\Debug\CaseProcessor.DataAccess.Tests.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessor.DataAccess.Tests\obj\Debug\CaseProcessor.DataAccess.Tests.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\Supeng.Common.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\Caliburn.Micro.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\Supeng.Common.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\Caliburn.Micro.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\Caliburn.Micro.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\CaseProcessor.DataAccess.Tests.dll.config
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\CaseProcessor.DataAccess.Tests.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\CaseProcessor.DataAccess.Tests.pdb
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\CaseProcessor.DataAccess.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\EntityFramework.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\Supeng.Common.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\Caliburn.Micro.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\CaseProcessor.DataAccess.pdb
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\CaseProcessor.DataAccess.dll.config
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\EntityFramework.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\Supeng.Common.pdb
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\Caliburn.Micro.pdb
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\Caliburn.Micro.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\obj\Debug\CaseProcessor.DataAccess.Tests.csprojResolveAssemblyReference.cache
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\obj\Debug\CaseProcessor.DataAccess.Tests.dll
+C:\Users\esu\Desktop\CaseProcessor\CaseProcessor.DataAccess.Tests\obj\Debug\CaseProcessor.DataAccess.Tests.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\CaseProcessor.DataAccess.Tests.dll.config
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\CaseProcessor.DataAccess.Tests.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\CaseProcessor.DataAccess.Tests.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\CaseProcessor.DataAccess.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\EntityFramework.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\Supeng.Common.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\Caliburn.Micro.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\CaseProcessor.DataAccess.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\CaseProcessor.DataAccess.dll.config
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\EntityFramework.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\Supeng.Common.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\Caliburn.Micro.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\Caliburn.Micro.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\obj\Debug\CaseProcessor.DataAccess.Tests.csprojResolveAssemblyReference.cache
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\obj\Debug\CaseProcessor.DataAccess.Tests.dll
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess.Tests\obj\Debug\CaseProcessor.DataAccess.Tests.pdb

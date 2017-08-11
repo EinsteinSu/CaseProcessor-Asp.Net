@@ -1,0 +1,34 @@
+﻿@model CaseProcessor.DataAccess.Models.Backlog
+
+<div>
+    <h4>Backlog</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.BacklogNumber)
+        </dt>
+
+        <dd>
+            <a href='@string.Format("http://tfsreports.prod.quest.corp:8080/Windows%20Management/ArchiveManager/_workitems#_a=edit&id={0}", Model.BacklogNumber)'
+               target="_blank">  @Html.DisplayFor(model => model.BacklogNumber)</a>
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Versions)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Versions)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ETA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ETA)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", "Backlogs", new { id = Model.CaseId }, new { @class = "btn btn-primary" })
+</p>

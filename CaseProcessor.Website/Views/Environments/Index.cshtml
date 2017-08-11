@@ -1,0 +1,15 @@
+﻿@model IEnumerable<CaseProcessor.DataAccess.Models.Environment>
+<p>
+    @Html.ActionLink("Create New", "Create", "Environments", new { caseId = ViewData["CaseId"] }, new { @class = "btn btn-primary" })
+</p>
+<ul class="list-group">
+    @foreach (var item in Model)
+    {
+        <li class="list-group-item">
+            @Html.DisplayFor(modelItem => item.Type)
+            @Html.DisplayFor(modelItem => item.Value)
+            @Html.ActionLink("Edit", "Edit", "Environments", new { id = item.EnvironmentId }, new { @class = "btn btn-primary" })
+            @Html.ActionLink("Delete", "Delete", "Environments", new { id = item.EnvironmentId }, new { @class = "btn btn-primary" })
+        </li>
+    }
+</ul>
