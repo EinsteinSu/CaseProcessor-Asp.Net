@@ -54,6 +54,7 @@
     <Compile Include="ICasesMgr.cs" />
     <Compile Include="IDeveloperMgr.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ToDoMgr.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CaseProcessor.DataAccess\CaseProcessor.DataAccess.csproj">

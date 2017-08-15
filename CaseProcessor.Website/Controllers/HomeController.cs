@@ -6,21 +6,25 @@ using System.Web;
 using System.Web.Mvc;
 using CaseProcessor.Business;
 using CaseProcessor.DataAccess.Models;
+using CaseProcessor.Website.Commons;
 
 namespace CaseProcessor.Website.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ICasesMgr _casesMgr;
+        private readonly IToDoMgr _toDoMgr;
 
-        public HomeController(ICasesMgr casesMgr)
+        public HomeController(ICasesMgr casesMgr,IToDoMgr toDoMgr)
         {
             _casesMgr = casesMgr;
+            _toDoMgr = toDoMgr;
         }
 
         public HomeController()
         {
             _casesMgr = new CasesMgr();
+            _toDoMgr = new ToDoMgr();
         }
 
         public ActionResult Index(int? query, string sortOrder)
@@ -144,6 +148,11 @@ namespace CaseProcessor.Website.Controllers
             return View();
         }
 
+        public ActionResult ToDo()
+        {
+            return View(_toDoMgr.GetToDoList());
+        }
+
         public ActionResult EditCase(int id)
         {
             var model = _casesMgr.GetCaseById(id);
@@ -162,7 +171,7 @@ namespace CaseProcessor.Website.Controllers
                     ViewBag.Error = "Update error";
                     return View(c);
                 }
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", Request.QueryString.ToRouteValueDictionary());
             }
             return View(c);
         }
@@ -188,7 +197,7 @@ namespace CaseProcessor.Website.Controllers
             if (ModelState.IsValid)
             {
                 _casesMgr.Add(@case);
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", Request.QueryString.ToRouteValueDictionary());
             }
             return View(@case);
         }
@@ -213,7 +222,7 @@ namespace CaseProcessor.Website.Controllers
         public ActionResult DeleteConfirmed(int id)
         {
             _casesMgr.Delete(id);
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", Request.QueryString.ToRouteValueDictionary());
         }
     }
 

@@ -1,4 +1,5 @@
 ﻿using System.Data.Entity;
+using System.Linq;
 using System.Net;
 using System.Web.Mvc;
 using CaseProcessor.DataAccess;
@@ -16,11 +17,11 @@ namespace CaseProcessor.Website.Controllers
             return View();
         }
 
-       
+
         // GET: ToDos/Create
         public ActionResult Create(int caseId)
         {
-            var todo = new ToDo {CaseId = caseId};
+            var todo = new ToDo { CaseId = caseId };
             return View(todo);
         }
 
@@ -35,9 +36,9 @@ namespace CaseProcessor.Website.Controllers
             {
                 db.ToDoes.Add(toDo);
                 db.SaveChanges();
-                return RedirectToAction("EditCase", "Home", new {id = toDo.CaseId});
+                return RedirectToAction("EditCase", "Home", new { id = toDo.CaseId });
             }
-            return RedirectToAction("EditCase", "Home", new {id = toDo.CaseId});
+            return RedirectToAction("EditCase", "Home", new { id = toDo.CaseId });
         }
 
         // GET: ToDos/Edit/5
@@ -62,7 +63,7 @@ namespace CaseProcessor.Website.Controllers
             {
                 db.Entry(toDo).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("EditCase", "Home", new {id = toDo.CaseId});
+                return RedirectToAction("EditCase", "Home", new { id = toDo.CaseId });
             }
             return View(toDo);
         }
@@ -87,7 +88,7 @@ namespace CaseProcessor.Website.Controllers
             var toDo = db.ToDoes.Find(id);
             db.ToDoes.Remove(toDo);
             db.SaveChanges();
-            return RedirectToAction("EditCase", "Home", new {id = toDo.CaseId});
+            return RedirectToAction("EditCase", "Home", new { id = toDo.CaseId });
         }
 
         protected override void Dispose(bool disposing)

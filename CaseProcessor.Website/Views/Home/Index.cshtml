@@ -15,7 +15,7 @@
     @Html.ActionLink("Current Processing Cases", "Index", new { query = 1 }, new { @class = "btn btn-primary" })
     @Html.ActionLink("TODO cases", "Index", new { query = 2 }, new { @class = "btn btn-primary" })
     @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
-
+    Total: @string.Format("{0} Cases",Model.Count())
 </p>
 <div>
     <table id="example" class="table table-bordered">
@@ -88,7 +88,7 @@
                                     <a href='@string.Format("http://tfsreports.prod.quest.corp/ReportServer/Pages/ReportViewer.aspx?/Siebel/Service+Request&rs%3aCommand=Render&ID_C={0}", @item.SrNumber)'
                                        target="_blank">Open in website</a>
                                 </li>
-                                <li>@Html.ActionLink("Edit Case", "EditCase", new { id = item.CaseId })</li>
+                                <li>@Html.ActionLink("Edit Case", "EditCase", Request.QueryString.ToRouteValueDictionary("id",item.CaseId.ToString()))</li>
                                 <li>@Html.ActionLink("Close Case", "Edit", "Closeds", new { id = item.CaseId }, new { })</li>
                                 <li>@Html.ActionLink("Remove Case", "Delete", new { id = item.CaseId })</li>
                                 <li></li>

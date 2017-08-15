@@ -15,7 +15,7 @@
     @Html.ActionLink("Current Processing Cases", "Index", new { query = 1 }, new { @class = "btn btn-primary" })
     @Html.ActionLink("TODO cases", "Index", new { query = 2 }, new { @class = "btn btn-primary" })
     @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
-
+    Total: @string.Format("{0} Cases",Model.Count())
 </p>
 <div>
     <table id="example" class="table table-bordered">

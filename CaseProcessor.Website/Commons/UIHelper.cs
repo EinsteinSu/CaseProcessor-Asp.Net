@@ -118,5 +118,10 @@ namespace CaseProcessor.Website.Commons
             }
             return routeValueDictionary;
         }
+
+        public static RouteValueDictionary ToRouteValueDictionary(this NameValueCollection collection)
+        {
+            return ToRouteValueDictionary(collection, "", "");
+        }
     }
 }
