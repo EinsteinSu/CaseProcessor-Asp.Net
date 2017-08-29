@@ -42,9 +42,20 @@ namespace CaseProcessor.Sync
                     }
                     item.ProcessCase(c);
                 }
+                var listSr = list.Select(s => s.SRNumber);
+                var closes = from s in context.Cases.Where(w => w.Status != CaseStatus.Closed)
+                             where listSr.All(a => a != s.SrNumber)
+                             select s;
+                Console.WriteLine("{0} case(s) closed", closes.Count());
+                foreach (var c in closes)
+                {
+                    c.Status = CaseStatus.WaitingForClose;
+                    context.Entry(c).State = EntityState.Modified;
+                    Console.WriteLine("Case {0} is waiting for close.", c.SrNumber);
+                }
                 context.SaveChanges();
             }
-
+            Console.Read();
         }
 
         static List<SyncData> GetSyncData(string path)

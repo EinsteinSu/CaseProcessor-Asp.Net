@@ -76,3 +76,4 @@ C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\Ca
 C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.dll
 C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.pdb
 C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.Migrations.closed.resources
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.Migrations.addcrtracking.resources

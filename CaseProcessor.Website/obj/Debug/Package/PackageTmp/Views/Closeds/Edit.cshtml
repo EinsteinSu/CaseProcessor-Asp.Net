@@ -1,4 +1,5 @@
-﻿@model CaseProcessor.DataAccess.Models.Closed
+﻿@using CaseProcessor.Website.Commons
+@model CaseProcessor.DataAccess.Models.Closed
 
 @using (Html.BeginForm())
 {
@@ -35,6 +36,6 @@
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index", "Home", new { id = Model.CaseId }, new { @class = "btn btn-primary" })
+    @Html.ActionLink("Back to List", "Index", "Home", Request.QueryString.ToRouteValueDictionary("id", Model.CaseId.ToString()), new Dictionary<string, object>())
 </div>
 

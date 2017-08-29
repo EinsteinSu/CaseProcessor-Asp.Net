@@ -10,21 +10,26 @@
 
     @model IEnumerable<CaseProcessor.DataAccess.Models.Case>
 }
-<p style="margin-top: 10px">
+<div style="margin-top: 10px;">
     @Html.ActionLink("All Cases", "Index", new { query = 0 }, new { @class = "btn btn-primary" })
     @Html.ActionLink("Current Processing Cases", "Index", new { query = 1 }, new { @class = "btn btn-primary" })
-    @Html.ActionLink("TODO cases", "Index", new { query = 2 }, new { @class = "btn btn-primary" })
-    @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
-    Total: @string.Format("{0} Cases",Model.Count())
-</p>
+    @Html.ActionLink("TODO Cases", "Index", new { query = 2 }, new { @class = "btn btn-primary" })
+    @Html.ActionLink("Waiting for updated Cases", "Index", new { query = 3 }, new { @class = "btn btn-primary" })
+    @Html.ActionLink("CR Tracking Cases", "Index", new { query = 4 }, new { @class = "btn btn-primary" })
+    <h4>Total: @string.Format("{0} Case(s)", Model.Count())</h4>
+</div>
 <div>
-    <table id="example" class="table table-bordered">
+    <table id="example" class="table table-bordered table-hover">
         <thead>
             <tr>
                 <th>
                     @*Request QueryString is the current url, below url is query = 0 then add another*@
                     @Html.ActionLink("CR", "Index", Request.QueryString.ToRouteValueDictionary("sortOrder", (string)ViewBag.SrNumberSortParam))
                     @Html.SortIdentifier(currentSort, "SrNumber")
+                </th>
+                <th>
+                    @Html.ActionLink("TFS", "Index", Request.QueryString.ToRouteValueDictionary("sortOrder", (string)ViewBag.TFSNumberSortParam))
+                    @Html.SortIdentifier(currentSort, "TFSNumber")
                 </th>
                 <th>
                     @Html.ActionLink("Level", "Index", Request.QueryString.ToRouteValueDictionary("sortOrder", (string)ViewBag.LevelSortParam))
@@ -41,6 +46,10 @@
                 <th>
                     @Html.ActionLink("Current TODO", "Index", Request.QueryString.ToRouteValueDictionary("sortOrder", (string)ViewBag.CurrentToDoSortParam))
                     @Html.SortIdentifier(currentSort, "CurrentToDo")
+                </th>
+                <th>
+                    @Html.ActionLink("Current Activity", "Index", Request.QueryString.ToRouteValueDictionary("sortOrder", (string)ViewBag.CurrentActivitySortParam))
+                    @Html.SortIdentifier(currentSort, "CurrentActivity")
                 </th>
                 <th>
                     @Html.ActionLink("Status", "Index", Request.QueryString.ToRouteValueDictionary("sortOrder", (string)ViewBag.StatusSortParam))
@@ -88,20 +97,29 @@
                                     <a href='@string.Format("http://tfsreports.prod.quest.corp/ReportServer/Pages/ReportViewer.aspx?/Siebel/Service+Request&rs%3aCommand=Render&ID_C={0}", @item.SrNumber)'
                                        target="_blank">Open in website</a>
                                 </li>
-                                <li>@Html.ActionLink("Edit Case", "EditCase", new { id = item.CaseId })</li>
-                                <li>@Html.ActionLink("Close Case", "Edit", "Closeds", new { id = item.CaseId }, new { })</li>
-                                <li>@Html.ActionLink("Remove Case", "Delete", new { id = item.CaseId })</li>
+                                <li>@Html.ActionLink("Edit Case", "EditCase", Request.QueryString.ToRouteValueDictionary("id", item.CaseId.ToString()))</li>
+                                <li>@Html.ActionLink("Close Case", "Edit", "Closeds", Request.QueryString.ToRouteValueDictionary("id", item.CaseId.ToString()), new Dictionary<string, object>())</li>
+                                <li>@Html.ActionLink("Remove Case", "Delete", Request.QueryString.ToRouteValueDictionary("id", item.CaseId.ToString()), new Dictionary<string, object>())</li>
                                 <li></li>
                             </ul>
                         </div>
                     </td>
-                    <td class='@UIHelper.ConvertLevel(item.Level)'>@item.Level</td>
+                    <td>
+                        <a href='@string.Format("http://tfsreports.prod.quest.corp:8080/Windows%20Management/ArchiveManager/_workitems#_a=edit&id={0}", @item.TFSNumber)'
+                           target="_blank">@item.TFSNumber</a>
+                    </td>
+                    <td class='@UIHelper.ConvertLevelClass(item.Level)'>@item.Level</td>
                     <td>@item.Duration</td>
-                    <td style="cursor: help" data-toggle="popover" title="Current Activity" data-content='@item.CurrentActivity' class='@UIHelper.ConvertStatus(item.InternalStatus)'>
+                    <td class="@UIHelper.ConvertInternalStatusClass(item.InternalStatus)">
                         @item.InternalStatus
                     </td>
                     <td>@item.CurrentToDo</td>
-                    <td>@item.Status</td>
+                    <td>
+                        @item.CurrentActivity
+                    </td>
+                    <td class='@UIHelper.ConvertStatusClass(item.Status)'>
+                        @UIHelper.ConvertStatusToString(item.Status)
+                    </td>
                     <td>@item.Version</td>
                     <td>@item.Component</td>
                     <td>@item.Subject</td>
@@ -114,10 +132,3 @@
         </tbody>
     </table>
 </div>
-@section Scripts {
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('[data-toggle="popover"]').popover();
-        });
-    </script>
-}

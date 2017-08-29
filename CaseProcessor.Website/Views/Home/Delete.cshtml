@@ -1,4 +1,6 @@
-﻿@model CaseProcessor.DataAccess.Models.Case
+﻿@using System.Web.Mvc.Html
+@using CaseProcessor.Website.Commons
+@model CaseProcessor.DataAccess.Models.Case
 
 @{
     ViewBag.Title = "Delete";
@@ -108,7 +110,7 @@
 
         <div class="form-actions no-color">
             <input type="submit" value="Delete" class="btn btn-default" /> |
-            @Html.ActionLink("Back to List", "Index")
+            @Html.ActionLink("Back to List", "Index", Request.QueryString.ToRouteValueDictionary())
         </div>
     }
 </div>

@@ -69,6 +69,8 @@ namespace CaseProcessor.DataAccess.Models
         [JsonIgnore]
         public int? DeveloperId { get; set; }
 
+        public bool CRTracking { get; set; }
+
         public virtual Developer Developer { get; set; }
         public virtual IList<Environment> Environments { get; set; }
         public virtual IList<ToDo> ToDoList { get; set; }
@@ -81,6 +83,16 @@ namespace CaseProcessor.DataAccess.Models
                 {
                     return ToDoList.Where(w => !w.Done).OrderByDescending(o => o.Time).First().Content;
                 }
+                return string.Empty;
+            }
+        }
+
+        public string TFSNumber
+        {
+            get
+            {
+                if (!string.IsNullOrEmpty(Backlog?.BacklogNumber))
+                    return Backlog.BacklogNumber;
                 return string.Empty;
             }
         }
@@ -134,6 +146,8 @@ namespace CaseProcessor.DataAccess.Models
         New,
         Closed,
         [Display(Name = "Enhancement Request Created")]
-        EnhancementRequestCreated
+        EnhancementRequestCreated,
+        [Display(Name = "Case waiting for close")]
+        WaitingForClose
     }
 }

@@ -22,7 +22,7 @@
     {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Case.SrNumber)
+                @Html.ActionLink(item.Case.SrNumber, "EditCase", new { id = item.CaseId })
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Content)

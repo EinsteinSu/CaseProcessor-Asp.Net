@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
+using System.Text;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
@@ -24,7 +25,24 @@ namespace CaseProcessor.Website.Commons
             return list;
         }
 
-        public static string ConvertLevel(int level)
+        public static string ConvertHtmlForActivity(IList<Activity> activities)
+        {
+            if (activities != null)
+            {
+                StringBuilder sb = new StringBuilder();
+                foreach (var item in activities)
+                {
+                    //sb.AppendLine("<p>");
+                    sb.AppendLine(item.Content);
+                    sb.AppendLine(item.Time.ToShortDateString());
+                    //sb.AppendLine("</p>");
+                }
+                return sb.ToString();
+            }
+            return string.Empty;
+        }
+
+        public static string ConvertLevelClass(int level)
         {
             switch (level)
             {
@@ -39,7 +57,44 @@ namespace CaseProcessor.Website.Commons
             }
         }
 
-        public static string ConvertStatus(InternalStatus s)
+        public static string ConvertStatusToString(CaseStatus status)
+        {
+            switch (status)
+            {
+                case CaseStatus.Closed:
+                    return "Closed";
+                case CaseStatus.DefectConfirmed:
+                    return "Defect Confirmed";
+                case CaseStatus.EnhancementRequestCreated:
+                    return "Enhancement Created";
+                case CaseStatus.FromSupport:
+                    return "From Support";
+                case CaseStatus.New:
+                    return "New";
+                case CaseStatus.WaitForSupport:
+                    return "Wait Support";
+                case CaseStatus.WaitingForClose:
+                    return "Waiting for Close";
+                default:
+                    return status.ToString();
+            }
+        }
+
+        public static string ConvertStatusClass(CaseStatus status)
+        {
+            switch (status)
+            {
+                case CaseStatus.FromSupport:
+                case CaseStatus.WaitingForClose:
+                    return "btn-danger";
+                case CaseStatus.New:
+                    return "btn-warning";
+                default:
+                    return "btn-success";
+            }
+        }
+
+        public static string ConvertInternalStatusClass(InternalStatus s)
         {
             switch (s)
             {
