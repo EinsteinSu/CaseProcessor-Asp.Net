@@ -1,0 +1,60 @@
+﻿@{
+    var grid = Html.DevExpress().GridView(settings =>
+    {
+        settings.Name = "ToDoGridView";
+        settings.SettingsDetail.MasterGridName = "GridView";
+        settings.CallbackRouteValues = new { Controller = "Home", Action = "ToDoGridViewPartial", CaseId = ViewData["CaseId"] };
+        settings.Width = Unit.Percentage(100);
+        settings.SettingsEditing.AddNewRowRouteValues = new { Controller = "Home", Action = "ToDoGridViewPartialAddNew", CaseId = ViewData["CaseId"] };
+        settings.SettingsEditing.UpdateRowRouteValues = new { Controller = "Home", Action = "ToDoGridViewPartialUpdate", CaseId = ViewData["CaseId"] };
+        settings.SettingsEditing.DeleteRowRouteValues = new { Controller = "Home", Action = "ToDoGridViewPartialDelete", CaseId = ViewData["CaseId"] };
+        settings.SettingsEditing.Mode = GridViewEditingMode.EditFormAndDisplayRow;
+        settings.SettingsBehavior.ConfirmDelete = true;
+
+        settings.CommandColumn.Visible = true;
+        settings.CommandColumn.ShowNewButton = true;
+        settings.CommandColumn.ShowDeleteButton = true;
+        settings.CommandColumn.ShowEditButton = true;
+        settings.CommandColumn.Width = Unit.Pixel(100);
+        settings.Settings.ShowColumnHeaders = false;
+
+        settings.KeyFieldName = "ToDoId";
+
+        settings.SettingsPager.Visible = false;
+        settings.SettingsPager.Mode = GridViewPagerMode.ShowAllRecords;
+        settings.Settings.ShowGroupPanel = false;
+        settings.Settings.ShowFilterRow = false;
+        settings.SettingsBehavior.AllowSelectByRowClick = true;
+
+        settings.SettingsAdaptivity.AdaptivityMode = GridViewAdaptivityMode.Off;
+        settings.SettingsAdaptivity.AdaptiveColumnPosition = GridViewAdaptiveColumnPosition.Right;
+        settings.SettingsAdaptivity.AdaptiveDetailColumnCount = 1;
+        settings.SettingsAdaptivity.AllowOnlyOneAdaptiveDetailExpanded = false;
+        settings.SettingsAdaptivity.HideDataCellsAtWindowInnerWidth = 0;
+
+        settings.Columns.Add("Content");
+        settings.Columns.Add(s =>
+        {
+            s.FieldName = "Done";
+            s.ColumnType = MVCxGridViewColumnType.CheckBox;
+        });
+        settings.Columns.Add("Time");
+        settings.InitNewRow = (s, e) =>
+        {
+            e.NewValues["Done"] = false;
+            e.NewValues["Time"] = DateTime.Now;
+        };
+        settings.CellEditorInitialize = (s, e) =>
+        {
+            if (e.Column.FieldName == "Time")
+            {
+                e.Editor.ClientEnabled = false;
+            }
+        };
+    });
+    if (ViewData["EditError"] != null)
+    {
+        grid.SetEditErrorText((string)ViewData["EditError"]);
+    }
+}
+@grid.Bind(Model).GetHtml()

@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.cs" Inherits="CaseProcessor_Website_DevExpress.MvcApplication" Language="C#" %>

@@ -1,0 +1,163 @@
+@using CaseProcessor.DataAccess.Models
+@using CaseProcessor.Website.DevExpress.Commons
+@{
+    var grid = Html.DevExpress().GridView(settings =>
+    {
+        settings.Name = "GridView";
+        settings.CallbackRouteValues = new { Controller = "Home", Action = "GridViewPartial", query = ViewData["query"] };
+
+        settings.SettingsEditing.AddNewRowRouteValues = new { Controller = "Home", Action = "GridViewPartialAddNew", query = ViewData["query"] };
+        settings.SettingsEditing.UpdateRowRouteValues = new { Controller = "Home", Action = "GridViewPartialUpdate", query = ViewData["query"] };
+        settings.SettingsEditing.DeleteRowRouteValues = new { Controller = "Home", Action = "GridViewPartialDelete", query = ViewData["query"] };
+        settings.SettingsEditing.Mode = GridViewEditingMode.EditFormAndDisplayRow;
+        settings.SettingsBehavior.ConfirmDelete = true;
+        var close = new GridViewCommandColumnCustomButton { ID = "btClose", Text = "Close" };
+        var backlog = new GridViewCommandColumnCustomButton { ID = "btBacklog", Text = "Backlog" };
+        settings.CommandColumn.CustomButtons.Add(backlog);
+        settings.CommandColumn.CustomButtons.Add(close);
+        settings.ClientSideEvents.CustomButtonClick =
+            string.Format("function(s, e) {{ CustomButtonClick(s, e, '{0}'); }}", Url.Action("Backlog", "Home", new { query = ViewData["query"] ?? 1 }));
+        settings.CommandColumn.Visible = true;
+        settings.CommandColumn.ShowNewButton = false;
+        settings.CommandColumn.ShowDeleteButton = false;
+        settings.CommandColumn.ShowEditButton = true;
+
+        settings.KeyFieldName = "CaseId";
+
+        settings.SettingsPager.Visible = false;
+        settings.SettingsPager.Mode = GridViewPagerMode.ShowAllRecords;
+        settings.Settings.ShowGroupPanel = true;
+        settings.Settings.ShowFilterRow = true;
+        settings.SettingsBehavior.AllowSelectByRowClick = true;
+
+        settings.SettingsAdaptivity.AdaptivityMode = GridViewAdaptivityMode.Off;
+        settings.SettingsAdaptivity.AdaptiveColumnPosition = GridViewAdaptiveColumnPosition.Right;
+        settings.SettingsAdaptivity.AdaptiveDetailColumnCount = 1;
+        settings.SettingsAdaptivity.AllowOnlyOneAdaptiveDetailExpanded = false;
+        settings.SettingsAdaptivity.HideDataCellsAtWindowInnerWidth = 0;
+        settings.SettingsDetail.ShowDetailRow = true;
+        settings.SettingsDetail.AllowOnlyOneMasterRowExpanded = true;
+
+        settings.Columns.Add(s =>
+        {
+            s.FieldName = "SrNumber";
+            s.EditorProperties().HyperLink(h =>
+            {
+                h.NavigateUrlFormatString = "http://tfsreports.prod.quest.corp/ReportServer/Pages/ReportViewer.aspx?/Siebel/Service+Request&rs%3aCommand=Render&ID_C={0}";
+                h.Target = "_blank";
+            });
+        });
+        settings.Columns.Add(s =>
+        {
+            s.FieldName = "TFSNumber";
+            s.EditFormSettings.Visible = DefaultBoolean.False;
+            s.EditorProperties().HyperLink(h =>
+            {
+                h.NavigateUrlFormatString = "http://tfsreports.prod.quest.corp:8080/Windows%20Management/ArchiveManager/_workitems#_a=edit&id={0}";
+                h.Target = "_blank";
+            });
+        });
+        settings.Columns.Add("Level");
+        settings.Columns.Add(s =>
+        {
+            s.FieldName = "Duration";
+            s.EditFormSettings.Visible = DefaultBoolean.False;
+        });
+        settings.Columns.Add(s =>
+        {
+            s.FieldName = "InternalStatus";
+
+            s.EditorProperties().ComboBox(c =>
+            {
+                c.ValueType = typeof(InternalStatus);
+                c.DataSource = Enum.GetValues(typeof(InternalStatus));
+            });
+        });
+        settings.Columns.Add(s =>
+        {
+            s.FieldName = "CurrentToDo";
+            s.EditFormSettings.Visible = DefaultBoolean.False;
+        });
+        settings.Columns.Add(s =>
+        {
+            s.FieldName = "CurrentActivity";
+            s.EditFormSettings.Visible = DefaultBoolean.False;
+        });
+        settings.Columns.Add(s =>
+        {
+            s.FieldName = "Status";
+            s.EditorProperties().ComboBox(c =>
+            {
+                c.ValueType = typeof(CaseStatus);
+                c.DataSource = Enum.GetValues(typeof(CaseStatus));
+            });
+        });
+        settings.Columns.Add("Version");
+        settings.Columns.Add("Component");
+        settings.Columns.Add("Subject");
+        settings.Columns.Add(s =>
+        {
+            s.FieldName = "Location";
+            s.EditorProperties().ComboBox(c =>
+            {
+                c.ValueType = typeof(Location);
+                c.DataSource = Enum.GetValues(typeof(Location));
+            });
+        });
+        settings.Columns.Add("Customer");
+        settings.Columns.Add("Owner");
+        settings.Columns.Add(s =>
+        {
+            s.FieldName = "DeveloperId";
+            s.Caption = "Developer";
+            s.EditorProperties().ComboBox(c =>
+            {
+                c.TextField = "Name";
+                c.ValueField = "DeveloperId";
+                c.DataSource = UIHelper.SelectDevelopers();
+            });
+        });
+        settings.Columns.Add(s =>
+        {
+            s.FieldName = "CRTracking";
+            s.Visible = false;
+            s.EditFormSettings.Visible = DefaultBoolean.True;
+            s.EditFormSettings.VisibleIndex = 999;
+            s.ColumnType = MVCxGridViewColumnType.CheckBox;
+        });
+        settings.SetDetailRowTemplateContent(c =>
+        {
+            ViewContext.Writer.Write("<h4>TODO</h4>");
+            Html.RenderAction("ToDoGridViewPartial", new { CaseId = DataBinder.Eval(c.DataItem, "CaseId") });
+            ViewContext.Writer.Write("<h4>Activities</h4>");
+            Html.RenderAction("ActivityGridViewPartial", new { CaseId = DataBinder.Eval(c.DataItem, "CaseId") });
+            ViewContext.Writer.Write("<h4>Environment</h4>");
+            Html.RenderAction("EnvironmentGridViewPartial", new { CaseId = DataBinder.Eval(c.DataItem, "CaseId") });
+            ViewContext.Writer.Write(UIHelper.GetBacklogHtml(DataBinder.Eval(c.DataItem, "CaseId")));
+            ViewContext.Writer.Write(UIHelper.GetClosedHtml(DataBinder.Eval(c.DataItem, "CaseId")));
+        });
+        settings.HtmlDataCellPrepared = UIHelper.SetCaseGridViewColors;
+        settings.TotalSummary.Add(DevExpress.Data.SummaryItemType.Count, "SrNumber");
+        settings.Settings.ShowFooter = true;
+        settings.CustomColumnDisplayText = (sender, e) =>
+        {
+            if (e.Column.FieldName == "InternalStatus")
+            {
+                var realValue = (InternalStatus)e.GetFieldValue("InternalStatus");
+                e.DisplayText = realValue.GetDisplayNameFromAttribute();
+            }
+
+            if (e.Column.FieldName == "Status")
+            {
+                var realValue = (CaseStatus)e.GetFieldValue("Status");
+                e.DisplayText = realValue.GetDisplayNameFromAttribute();
+            }
+        };
+
+    });
+    if (ViewData["EditError"] != null)
+    {
+        grid.SetEditErrorText((string)ViewData["EditError"]);
+    }
+}
+@grid.Bind(Model).GetHtml()

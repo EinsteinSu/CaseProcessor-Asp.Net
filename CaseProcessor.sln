@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseProcesser", "..\..\..\.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseProcessor.Sync", "CaseProcessor.Sync\CaseProcessor.Sync.csproj", "{BF5F20FF-7754-4456-A2A1-10C88D467667}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseProcessor.Website.DevExpress", "CaseProcessor.Website.DevExpress\CaseProcessor.Website.DevExpress.csproj", "{C2BABEEA-B5C5-4BC3-853C-F42200CBA1E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,10 @@ Global
 		{BF5F20FF-7754-4456-A2A1-10C88D467667}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF5F20FF-7754-4456-A2A1-10C88D467667}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF5F20FF-7754-4456-A2A1-10C88D467667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2BABEEA-B5C5-4BC3-853C-F42200CBA1E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2BABEEA-B5C5-4BC3-853C-F42200CBA1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2BABEEA-B5C5-4BC3-853C-F42200CBA1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2BABEEA-B5C5-4BC3-853C-F42200CBA1E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

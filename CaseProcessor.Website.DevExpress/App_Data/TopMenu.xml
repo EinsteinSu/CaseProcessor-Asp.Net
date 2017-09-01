@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<items>
+  <item Text="Current Processing" NavigateUrl="/home?query=1" />
+  <item Text="All" NavigateUrl="/home?query=0"  />
+  <item Text="TODO" NavigateUrl="/home?query=2"  />
+  <item Text="Waiting for Update" NavigateUrl="/home?query=3"  />
+  <item Text="CR Tracking" NavigateUrl="/home?query=4"  />
+</items>

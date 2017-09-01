@@ -5,6 +5,7 @@ using System.Linq;
 using CaseProcessor.DataAccess;
 using CaseProcessor.DataAccess.Models;
 using log4net;
+using Environment = CaseProcessor.DataAccess.Models.Environment;
 
 namespace CaseProcessor.Business
 {
@@ -102,7 +103,6 @@ namespace CaseProcessor.Business
             catch (Exception e)
             {
                 throw new Exception(e.Message);
-                return null;
             }
             return GetCaseById(c.CaseId);
         }
@@ -123,7 +123,204 @@ namespace CaseProcessor.Business
             catch (Exception e)
             {
                 Logger.Error("Delete case fialed.", e);
-                return false;
+                throw;
+            }
+        }
+
+        public IEnumerable<ToDo> GetCaseToDos(int caseId)
+        {
+            var item = GetCaseById(caseId);
+            return item?.ToDoList.OrderBy(o => o.Time);
+        }
+
+        public void CreateToDo(ToDo todo)
+        {
+            try
+            {
+                _context.ToDoes.Add(todo);
+                _context.SaveChanges();
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+                throw;
+            }
+        }
+
+        public void UpdateToDo(ToDo todo)
+        {
+            try
+            {
+                _context.Entry(todo).State = EntityState.Modified;
+                _context.SaveChanges();
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+                throw;
+            }
+        }
+
+        public void DeleteToDo(int id)
+        {
+            try
+            {
+                var todo = _context.ToDoes.Find(id);
+                if (todo != null)
+                {
+                    _context.ToDoes.Remove(todo);
+                    _context.SaveChanges();
+                }
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+                throw;
+            }
+        }
+
+        public IEnumerable<Environment> GetCaseEnvironments(int caseId)
+        {
+            var item = GetCaseById(caseId);
+            return item?.Environments;
+        }
+
+        public void CreateEnvironment(Environment environment)
+        {
+            try
+            {
+                _context.Environments.Add(environment);
+                _context.SaveChanges();
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+                throw;
+            }
+        }
+
+        public void UpdateEnvironment(Environment environment)
+        {
+            try
+            {
+                _context.Entry(environment).State = EntityState.Modified;
+                _context.SaveChanges();
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+                throw;
+            }
+        }
+
+        public void DeleteEnvironment(int id)
+        {
+            try
+            {
+                var environment = _context.Environments.Find(id);
+                if (environment != null)
+                {
+                    _context.Environments.Remove(environment);
+                    _context.SaveChanges();
+                }
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+                throw;
+            }
+        }
+
+        public IEnumerable<Activity> GetCaseActivities(int caseId)
+        {
+            var item = GetCaseById(caseId);
+            return item?.Activities.OrderBy(o => o.Time);
+        }
+
+        public void CreateActivity(Activity activity)
+        {
+           
+            try
+            {
+                _context.Activities.Add(activity);
+                _context.SaveChanges();
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+                throw;
+            }
+        }
+
+        public void UpdateActivity(Activity activity)
+        {
+            try
+            {
+                _context.Entry(activity).State = EntityState.Modified;
+                _context.SaveChanges();
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+                throw;
+            }
+        }
+
+        public void DeleteActivity(int id)
+        {
+            try
+            {
+                var activity = _context.Activities.Find(id);
+                if (activity != null)
+                {
+                    _context.Activities.Remove(activity);
+                    _context.SaveChanges();
+                }
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+                throw;
+            }
+        }
+
+        public Backlog GetCaseBacklog(int caseId)
+        {
+            var item = GetCaseById(caseId);
+            return item?.Backlog;
+        }
+
+        public void UpdateBacklog(Backlog backlog)
+        {
+            try
+            {
+                _context.Entry(backlog).State = EntityState.Modified;
+                _context.SaveChanges();
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+                throw;
+            }
+        }
+
+        public Closed GetCaseClosed(int caseId)
+        {
+            var item = GetCaseById(caseId);
+            return item?.Closed;
+        }
+
+        public void UpdateClosed(Closed closed)
+        {
+            try
+            {
+                _context.Entry(closed).State = EntityState.Modified;
+                _context.SaveChanges();
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+                throw;
             }
         }
 
@@ -132,7 +329,7 @@ namespace CaseProcessor.Business
             Closed close;
             if (!_context.Closeds.Any(c => c.CaseId == caseId))
             {
-                close = new Closed();
+                close = new Closed {CaseId = caseId};
                 _context.Closeds.Add(close);
                 _context.SaveChanges();
             }

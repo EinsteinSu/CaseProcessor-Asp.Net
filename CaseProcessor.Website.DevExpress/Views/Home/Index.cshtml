@@ -1,0 +1,14 @@
+<script type="text/javascript">
+    function CustomButtonClick(s, e, url) {
+        var key = s.GetRowKey(e.visibleIndex);
+        if (e.buttonID === "btBacklog") {
+            var backlogUrl = url + "&caseId=" + key;
+            window.location.href = backlogUrl;
+        }
+        if (e.buttonID === "btClose") {
+            var closeUrl = url.replace('Backlog', 'Close') + "&caseId=" + key;
+            window.location.href = closeUrl;
+        }
+    }
+</script>        
+@Html.Action("GridViewPartial")

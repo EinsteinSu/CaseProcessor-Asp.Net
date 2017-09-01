@@ -1,0 +1,17 @@
+﻿@model CaseProcessor.DataAccess.Models.Backlog
+    
+
+@Html.DevExpress().TextBoxFor(m => m.BacklogNumber, settings =>
+{
+    settings.Properties.NullText = "Please enter a backlog number";
+}).GetHtml()
+
+@Html.DevExpress().TextBoxFor(m => m.Versions, settings =>
+{
+    settings.Properties.NullText = "Please enter versions of this hotfix";
+}).GetHtml()
+
+@Html.DevExpress().TextBoxFor(m => m.ETA, settings =>
+{
+    settings.Properties.NullText = "Please enter an ETA";
+}).GetHtml()

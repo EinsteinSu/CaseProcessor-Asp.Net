@@ -25,3 +25,4 @@ C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\Ca
 C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess\obj\Release\CaseProcessor.DataAccess.csproj.GenerateResource.Cache
 C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess\obj\Release\CaseProcessor.DataAccess.dll
 C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess\obj\Release\CaseProcessor.DataAccess.pdb
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess\obj\Release\CaseProcessor.DataAccess.Migrations.addcrtracking.resources

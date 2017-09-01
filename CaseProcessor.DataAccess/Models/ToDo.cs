@@ -7,11 +7,6 @@ namespace CaseProcessor.DataAccess.Models
 {
     public class ToDo
     {
-        public ToDo()
-        {
-            Time = DateTime.Now;
-        }
-
         [Key]
         public int ToDoId { get; set; }
 

@@ -1,0 +1,50 @@
+﻿@using CaseProcessor.DataAccess.Models
+@{
+    var grid = Html.DevExpress().GridView(settings =>
+    {
+        settings.Name = "EnvironmentGridView";
+        settings.SettingsDetail.MasterGridName = "GridView";
+        settings.CallbackRouteValues = new { Controller = "Home", Action = "EnvironmentGridViewPartial", CaseId = ViewData["CaseId"] };
+        settings.Width = Unit.Percentage(100);
+        settings.SettingsEditing.AddNewRowRouteValues = new { Controller = "Home", Action = "EnvironmentGridViewPartialAddNew", CaseId = ViewData["CaseId"] };
+        settings.SettingsEditing.UpdateRowRouteValues = new { Controller = "Home", Action = "EnvironmentGridViewPartialUpdate", CaseId = ViewData["CaseId"] };
+        settings.SettingsEditing.DeleteRowRouteValues = new { Controller = "Home", Action = "EnvironmentGridViewPartialDelete", CaseId = ViewData["CaseId"] };
+        settings.SettingsEditing.Mode = GridViewEditingMode.EditFormAndDisplayRow;
+        settings.SettingsBehavior.ConfirmDelete = true;
+
+        settings.CommandColumn.Visible = true;
+        settings.CommandColumn.ShowNewButton = true;
+        settings.CommandColumn.ShowDeleteButton = true;
+        settings.CommandColumn.ShowEditButton = true;
+        settings.CommandColumn.Width = Unit.Pixel(100);
+        settings.Settings.ShowColumnHeaders = false;
+        settings.KeyFieldName = "EnvironmentId";
+
+        settings.SettingsPager.Visible = false;
+        settings.Settings.ShowGroupPanel = false;
+        settings.Settings.ShowFilterRow = false;
+        settings.SettingsBehavior.AllowSelectByRowClick = false;
+
+        settings.SettingsAdaptivity.AdaptivityMode = GridViewAdaptivityMode.Off;
+        settings.SettingsAdaptivity.AdaptiveColumnPosition = GridViewAdaptiveColumnPosition.Right;
+        settings.SettingsAdaptivity.AdaptiveDetailColumnCount = 1;
+        settings.SettingsAdaptivity.AllowOnlyOneAdaptiveDetailExpanded = false;
+        settings.SettingsAdaptivity.HideDataCellsAtWindowInnerWidth = 0;
+
+        settings.Columns.Add(s =>
+        {
+            s.FieldName = "Type";
+            s.EditorProperties().ComboBox(c =>
+            {
+                c.ValueType = typeof(EnvironmentType);
+                c.DataSource = Enum.GetValues(typeof(EnvironmentType));
+            });
+        });
+        settings.Columns.Add("Value");
+    });
+    if (ViewData["EditError"] != null)
+    {
+        grid.SetEditErrorText((string)ViewData["EditError"]);
+    }
+}
+@grid.Bind(Model).GetHtml()
