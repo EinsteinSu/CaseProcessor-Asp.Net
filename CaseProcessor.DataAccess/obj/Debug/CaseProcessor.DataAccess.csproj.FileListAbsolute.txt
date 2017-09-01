@@ -76,3 +76,29 @@ C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\Ca
 C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.dll
 C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.pdb
 C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.Migrations.closed.resources
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\bin\Debug\CaseProcessor.DataAccess.dll.config
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\bin\Debug\CaseProcessor.DataAccess.dll
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\bin\Debug\CaseProcessor.DataAccess.pdb
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\bin\Debug\Caliburn.Micro.dll
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\bin\Debug\Supeng.Common.pdb
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\bin\Debug\Caliburn.Micro.pdb
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\bin\Debug\Caliburn.Micro.xml
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.Migrations.firstdesign.resources
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.Migrations.changebacklognumbermaxlength.resources
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.Migrations.todo.resources
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.Migrations.tagchangeforeignKey.resources
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.Migrations.rename.resources
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.Migrations.activity.resources
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.Migrations.closed.resources
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.csproj.GenerateResource.Cache
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.dll
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.pdb

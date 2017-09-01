@@ -225,3 +225,6 @@ C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\Ca
 C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\obj\Debug\CaseProcessorMigration.csprojResolveAssemblyReference.cache
 C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\obj\Debug\CaseProcessorMigration.exe
 C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessorMigration\obj\Debug\CaseProcessorMigration.pdb
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessorMigration\obj\Debug\CaseProcessorMigration.csprojResolveAssemblyReference.cache
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessorMigration\obj\Debug\CaseProcessorMigration.exe
+C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessorMigration\obj\Debug\CaseProcessorMigration.pdb
