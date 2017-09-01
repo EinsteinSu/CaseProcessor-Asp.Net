@@ -76,6 +76,7 @@ C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\Ca
 C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.dll
 C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.pdb
 C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.Migrations.closed.resources
+<<<<<<< HEAD
 C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\bin\Debug\CaseProcessor.DataAccess.dll.config
 C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\bin\Debug\CaseProcessor.DataAccess.dll
 C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\bin\Debug\CaseProcessor.DataAccess.pdb
@@ -102,3 +103,6 @@ C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\ob
 C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.csproj.GenerateResource.Cache
 C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.dll
 C:\Users\ssu2\Documents\GitHub\CaseProcessor-Asp.Net\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.pdb
+=======
+C:\Users\esu\Documents\My Projects\CaseProcessor of ASP.Net MVC\CaseProcessor\CaseProcessor.DataAccess\obj\Debug\CaseProcessor.DataAccess.Migrations.addcrtracking.resources
+>>>>>>> 442fcb3f984b53c326dab43de5d243f370da4d4b

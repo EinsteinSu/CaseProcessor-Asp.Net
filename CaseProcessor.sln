@@ -14,6 +14,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseProcessor.Website", "Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseProcessor.Website.Tests", "CaseProcessor.Website.Tests\CaseProcessor.Website.Tests.csproj", "{F988D270-CCA5-46B1-9CF8-62161F68BA37}"
 EndProject
+<<<<<<< HEAD
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseProcesser", "..\..\..\..\..\..\AMTools\CaseProcesser\CaseProcesser\CaseProcesser.csproj", "{ECBD916E-13D5-470C-8778-4B9538F559FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseProcessor.Sync", "CaseProcessor.Sync\CaseProcessor.Sync.csproj", "{BF5F20FF-7754-4456-A2A1-10C88D467667}"
+EndProject
+>>>>>>> 442fcb3f984b53c326dab43de5d243f370da4d4b
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +51,17 @@ Global
 		{F988D270-CCA5-46B1-9CF8-62161F68BA37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F988D270-CCA5-46B1-9CF8-62161F68BA37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F988D270-CCA5-46B1-9CF8-62161F68BA37}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
+		{ECBD916E-13D5-470C-8778-4B9538F559FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECBD916E-13D5-470C-8778-4B9538F559FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECBD916E-13D5-470C-8778-4B9538F559FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECBD916E-13D5-470C-8778-4B9538F559FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF5F20FF-7754-4456-A2A1-10C88D467667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5F20FF-7754-4456-A2A1-10C88D467667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5F20FF-7754-4456-A2A1-10C88D467667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5F20FF-7754-4456-A2A1-10C88D467667}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 442fcb3f984b53c326dab43de5d243f370da4d4b
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

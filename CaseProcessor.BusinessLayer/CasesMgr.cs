@@ -8,7 +8,7 @@ using log4net;
 
 namespace CaseProcessor.Business
 {
-    public class CasesMgr : ICasesMgr
+    public class CasesMgr : ICasesMgr, IDisposable
     {
         private static readonly ILog Logger = LogManager.GetLogger("CaseMgr");
         private readonly CaseProcessorDataContext _context = new CaseProcessorDataContext();
@@ -25,7 +25,7 @@ namespace CaseProcessor.Business
                         .Include(i => i.Tags)
                         .Include(i => i.Closed)
                         .Include(i => i.Activities)
-                        .Where(w => w.Status != CaseStatus.Closed);
+                        .Where(w => w.Status != CaseStatus.Closed && w.Status != CaseStatus.EnhancementRequestCreated && w.Status != CaseStatus.DefectConfirmed && !w.CRTracking);
                 case 2:
                     return _context.Cases.Include(i => i.Developer)
                        .Include(i => i.Environments)
@@ -34,8 +34,26 @@ namespace CaseProcessor.Business
                        .Include(i => i.Tags)
                        .Include(i => i.Closed)
                        .Include(i => i.Activities)
-                        .Where(w => w.Status != CaseStatus.Closed).ToList()
+                        .Where(w => w.Status != CaseStatus.Closed && !w.CRTracking).ToList()
                        .Where(w => !string.IsNullOrEmpty(w.CurrentToDo));
+                case 3:
+                    return _context.Cases.Include(i => i.Developer)
+                        .Include(i => i.Environments)
+                        .Include(i => i.ToDoList)
+                        .Include(i => i.Backlog)
+                        .Include(i => i.Tags)
+                        .Include(i => i.Closed)
+                        .Include(i => i.Activities)
+                        .Where(w => w.Status == CaseStatus.FromSupport && !w.CRTracking);
+                case 4:
+                    return _context.Cases.Include(i => i.Developer)
+                        .Include(i => i.Environments)
+                        .Include(i => i.ToDoList)
+                        .Include(i => i.Backlog)
+                        .Include(i => i.Tags)
+                        .Include(i => i.Closed)
+                        .Include(i => i.Activities)
+                        .Where(w => w.CRTracking);
                 default:
                     return _context.Cases.Include(i => i.Developer)
                         .Include(i => i.Environments)
@@ -123,6 +141,11 @@ namespace CaseProcessor.Business
                 close = _context.Closeds.Find(caseId);
             }
             return close;
+        }
+
+        public void Dispose()
+        {
+            _context?.Dispose();
         }
     }
 }

@@ -6,21 +6,25 @@ using System.Web;
 using System.Web.Mvc;
 using CaseProcessor.Business;
 using CaseProcessor.DataAccess.Models;
+using CaseProcessor.Website.Commons;
 
 namespace CaseProcessor.Website.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ICasesMgr _casesMgr;
+        private readonly IToDoMgr _toDoMgr;
 
-        public HomeController(ICasesMgr casesMgr)
+        public HomeController(ICasesMgr casesMgr, IToDoMgr toDoMgr)
         {
             _casesMgr = casesMgr;
+            _toDoMgr = toDoMgr;
         }
 
         public HomeController()
         {
             _casesMgr = new CasesMgr();
+            _toDoMgr = new ToDoMgr();
         }
 
         public ActionResult Index(int? query, string sortOrder)
@@ -107,6 +111,12 @@ namespace CaseProcessor.Website.Controllers
                 case "Developer_desc":
                     list = list.OrderByDescending(s => s.Developer.Name);
                     break;
+                case "CurrentActivity":
+                    list = list.OrderBy(o => o.CurrentActivity);
+                    break;
+                case "CurrentActivity_desc":
+                    list = list.OrderByDescending(o => o.CurrentActivity);
+                    break;
                 default:
                     break;
             }
@@ -127,9 +137,12 @@ namespace CaseProcessor.Website.Controllers
             ViewBag.CustomerSortParam = sortOrder == "Customer" ? "Customer_desc" : "Customer";
             ViewBag.OwnerSortParam = sortOrder == "Owner" ? "Owner_desc" : "Owner";
             ViewBag.DeveloperSortParam = sortOrder == "Developer" ? "Developer_desc" : "Developer";
+            ViewBag.CurrentActivitySortParam = sortOrder == "CurrentActivity"
+                ? "CurrentActivity_desc"
+                : "CurrentActivity";
         }
 
-       
+
 
         public ActionResult About()
         {
@@ -144,6 +157,11 @@ namespace CaseProcessor.Website.Controllers
             return View();
         }
 
+        public ActionResult ToDo()
+        {
+            return View(_toDoMgr.GetToDoList());
+        }
+
         public ActionResult EditCase(int id)
         {
             var model = _casesMgr.GetCaseById(id);
@@ -152,7 +170,7 @@ namespace CaseProcessor.Website.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult EditCase([Bind(Include = "CaseId,SrNumber,Level,Version,Customer,Subject,OpenDate,Component,Location,InternalStatus,Status,Owner,DeveloperId")] Case c)
+        public ActionResult EditCase([Bind(Include = "CaseId,SrNumber,Level,Version,Customer,Subject,OpenDate,Component,Location,InternalStatus,Status,Owner,DeveloperId,CRTracking")] Case c)
         {
             if (ModelState.IsValid)
             {
@@ -162,7 +180,7 @@ namespace CaseProcessor.Website.Controllers
                     ViewBag.Error = "Update error";
                     return View(c);
                 }
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", Request.QueryString.ToRouteValueDictionary());
             }
             return View(c);
         }
@@ -183,12 +201,12 @@ namespace CaseProcessor.Website.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "CaseId,SrNumber,Level,Version,Customer,Subject,OpenDate,Component,Location,InternalStatus,Status,Owner,DeveloperId")] Case @case)
+        public ActionResult Create([Bind(Include = "CaseId,SrNumber,Level,Version,Customer,Subject,OpenDate,Component,Location,InternalStatus,Status,Owner,DeveloperId,CRTracking")] Case @case)
         {
             if (ModelState.IsValid)
             {
                 _casesMgr.Add(@case);
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", Request.QueryString.ToRouteValueDictionary());
             }
             return View(@case);
         }
@@ -213,7 +231,7 @@ namespace CaseProcessor.Website.Controllers
         public ActionResult DeleteConfirmed(int id)
         {
             _casesMgr.Delete(id);
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", Request.QueryString.ToRouteValueDictionary());
         }
     }
 

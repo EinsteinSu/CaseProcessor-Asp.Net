@@ -81,6 +81,10 @@
     <Compile Include="Migrations\201708090806287_closed.Designer.cs">
       <DependentUpon>201708090806287_closed.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201708170434169_add-crtracking.cs" />
+    <Compile Include="Migrations\201708170434169_add-crtracking.Designer.cs">
+      <DependentUpon>201708170434169_add-crtracking.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Activity.cs" />
     <Compile Include="Models\Case.cs" />
@@ -118,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201708090806287_closed.resx">
       <DependentUpon>201708090806287_closed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708170434169_add-crtracking.resx">
+      <DependentUpon>201708170434169_add-crtracking.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

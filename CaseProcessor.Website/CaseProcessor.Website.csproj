@@ -223,6 +223,7 @@
     <Content Include="Views\Home\Create.cshtml" />
     <Content Include="Views\Closeds\Edit.cshtml" />
     <Content Include="Views\Home\Delete.cshtml" />
+    <Content Include="Views\Home\ToDo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
